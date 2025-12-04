@@ -1,0 +1,57 @@
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-bottom: 5rem;
+}
+.project-card{
+    background-color: rgb(47, 25, 25);
+    padding: 1.3rem;
+
+}
+.project-card img{
+    width:100%;
+}
+
+
+.project-title{
+    width:100%;
+    color:aliceblue;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+padding: 1rem;}
+
+.pro-details p{
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    color: #ccc;
+
+}
+.pro-btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pro-btns{
+    padding:0.5rem
+}
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.btn{
+    /* background-attachment: fixed; */
+
+}

@@ -1,0 +1,71 @@
+
+.mask{
+    position: relative;
+    width:90%;
+    height:100vh;
+    /* overflow: hidden; */
+}
+
+.intro-img{
+    width:90%;
+    height:90vh;
+    /* object-fit: cover; */
+    /* background-size: contain; */
+    background-size: cover;
+
+    background-position: center;
+    /* background-size: cover; */
+}
+.mask::after{
+    content: "";
+    width:100%;
+    height:100%;
+    /* position: absolute; */
+    top:0;
+    left: 0px;
+    background-color: #775b5b;
+    opacity: 0.3;
+}
+
+.hero{
+    height: 90%;
+    width: 90%;
+    /* cahnge100 */
+
+}
+.hero .content{
+    position: absolute;
+    transform: translate(-10%, -30%);
+    top:25%;
+    left:35%;
+    text-align: right;
+    /* left me the right nice tranlate 50 50% changed nice now 10% */
+}
+
+.hero .content h1{
+   font-size: 3rem;
+   padding: 0.6 rem 0.1 1.4rem; 
+}
+
+.hero .content p{
+    font-size: 1.4rem;
+    font-weight: 300 ;
+    text-transform: uppercase;
+}
+.content .btn{
+    left:auto;
+    /* right:auto; */
+}
+@media  screen and (max-width:290px) {
+    .hero .content h1{
+        font-size: 3rem;
+    }
+
+    .hero .content p{
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    
+}

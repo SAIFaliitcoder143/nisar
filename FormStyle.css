@@ -1,0 +1,28 @@
+.label{
+    color:whitesmoke;
+    margin-bottom: 8px;
+    font-size: 18px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1 rem;
+    width: 50%;
+    margin: auto;
+    max-width: 600px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+form input, form textarea{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: color #f4f4f4 ;
+
+}
